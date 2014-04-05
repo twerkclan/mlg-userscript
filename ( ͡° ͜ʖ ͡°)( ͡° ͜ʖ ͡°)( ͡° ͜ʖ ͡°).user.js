@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name       ( ͡° ͜ʖ ͡°)( ͡° ͜ʖ ͡°)( ͡° ͜ʖ ͡°)
 // @namespace  http://reddit.com/u/twerkclan
-// @version    0.1
+// @version    0.2
 // @description  MLG xXxUserScriptxXx
 // @match      http://*/*
 // @match      https://*/*
