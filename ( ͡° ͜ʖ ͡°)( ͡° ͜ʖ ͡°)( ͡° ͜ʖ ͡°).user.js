@@ -41,7 +41,7 @@ function causeSeizure() {
     seizureInProgress = true;
     var id, prg = 0, theta = 0, updateSeizure = function() {
         theta = Math.sin(prg*10.)/5;
-        document.body.style.Transform = "rotate(" + theta + "deg)";
+        document.body.style.transform = "rotate(" + theta + "deg)";
         document.body.style.WebkitTransform = "rotate(" + theta + "deg)";
         if(prg++ > 100) {
             window.clearInterval(id);
@@ -67,7 +67,7 @@ function intensifyScrolling() {
     document.documentElement.appendChild(txtDiv);
     var id, prg = 0, theta = 0, updateSeizure = function() {
         theta = Math.sin(prg*10.)*3;
-        txtDiv.style.Transform = "rotate(" + theta + "deg)";
+        txtDiv.style.transform = "rotate(" + theta + "deg)";
         txtDiv.style.WebkitTransform = "rotate(" + theta + "deg)";
         if(prg++ > 100) {
             window.clearInterval(id);;
